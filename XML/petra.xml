@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fait par Walid BENABDELKRIM EL FILALI-->
+
+
+<!DOCTYPE merveille SYSTEM "merveilles.dtd">
+
+<merveille id="petra" type="cite" periode="antique">
+  <identite>
+    <nom>Pétra</nom>
+    <pays continent="asie">Jordanie</pays>
+    <lieu>Région de Ma’an</lieu>
+  </identite>
+
+  <description>
+    <resume>Ancienne cité nabatéenne, célèbre pour ses façades monumentales taillées dans le grès.</resume>
+    <histoire>Carrefour caravanier majeur, Pétra a prospéré grâce au commerce et à sa maîtrise de l’eau en milieu aride.</histoire>
+    <faits>
+      <fait type="usage">Fonction historique: ville et centre commercial.</fait>
+      <fait type="autre">Particularité: architecture directement sculptée dans la roche.</fait>
+    </faits>
+  </description>
+
+  <visite>
+    <etapes>
+      <etape ordre="1" categorie="experience" img="pet01" difficulte="facile">
+        <titre>Le Siq</titre>
+        <texte>Parcourir la gorge étroite d’accès: l’entrée est déjà une mise en scène.</texte>
+        <duree>20 min</duree>
+      </etape>
+
+      <etape ordre="2" categorie="contexte" img="pet02" difficulte="moyen">
+        <titre>Le Trésor et au-delà</titre>
+        <texte>Arrivée sur Al-Khazneh (le “Trésor”), puis progression vers d’autres zones et points de vue.</texte>
+        <duree>40 min</duree>
+      </etape>
+    </etapes>
+
+    <galerie>
+      <image id="pet01" type="photo">
+        <fichier>petra_01.jpg</fichier>
+        <legende>Le Siq (passage d’entrée)</legende>
+      </image>
+      <image id="pet02" type="photo">
+        <fichier>petra_02.jpg</fichier>
+        <legende>Al-Khazneh (le Trésor)</legende>
+      </image>
+    </galerie>
+  </visite>
+
+  <liens>
+    <lien type="wiki">https://fr.wikipedia.org/wiki/P%C3%A9tra</lien>
+  </liens>
+</merveille>

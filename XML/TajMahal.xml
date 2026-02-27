@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fait par Marwa BENSEKKOU-->
+<!DOCTYPE merveille SYSTEM "merveilles.dtd">
+
+<merveille id="taj_mahal" type="monument" periode="moderne">
+  <identite>
+    <nom>Taj Mahal</nom>
+    <pays continent="asie">Inde</pays>
+    <lieu>Agra (Uttar Pradesh)</lieu>
+    <coordonnees>
+      <latitude>27.1751</latitude>
+      <longitude>78.0421</longitude>
+    </coordonnees>
+  </identite>
+
+  <description>
+    <resume>Mausolée en marbre blanc, symbole de l’architecture moghole et monument funéraire.</resume>
+    <histoire>Commandé par l’empereur Shah Jahan en mémoire de Mumtaz Mahal, construit au XVIIe siècle.</histoire>
+    <architecture>Plan symétrique, dôme central, marbre blanc et décorations en pierre incrustée.</architecture>
+    <faits>
+      <fait type="materiau">Matériau principal: marbre blanc.</fait>
+      <fait type="usage">Fonction: mausolée (monument funéraire).</fait>
+    </faits>
+  </description>
+
+  <visite>
+    <etapes>
+      <etape ordre="1" categorie="intro" img="taj01" difficulte="facile">
+        <titre>Entrée et première vue</titre>
+        <texte>Découvrir l’axe principal et la perspective: le monument se dévoile progressivement.</texte>
+        <duree>10 min</duree>
+      </etape>
+
+      <etape ordre="2" categorie="architecture" img="taj02" difficulte="facile">
+        <titre>Zoom sur les détails</titre>
+        <texte>Observer les motifs, les inscriptions et la symétrie; comprendre la logique du plan.</texte>
+        <duree>15 min</duree>
+      </etape>
+    </etapes>
+
+    <galerie>
+      <image id="taj01" type="photo">
+        <fichier>taj_01.jpg</fichier>
+        <legende>Vue depuis l’axe central</legende>
+      </image>
+      <image id="taj02" type="photo">
+        <fichier>taj_02.jpg</fichier>
+        <legende>Détails décoratifs et façade</legende>
+      </image>
+    </galerie>
+  </visite>
+
+  <liens>
+    <lien type="wiki">https://fr.wikipedia.org/wiki/Taj_Mahal</lien>
+  </liens>
+</merveille>

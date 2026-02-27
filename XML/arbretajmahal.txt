@@ -1,0 +1,36 @@
+<!-- Fait par Marwa BENSEKKOU-->
+
+merveille
+├─ identite
+│  ├─ nom
+│  ├─ pays
+│  ├─ lieu
+│  └─ coordonnees
+│     ├─ latitude
+│     └─ longitude
+├─ description
+│  ├─ resume
+│  ├─ histoire
+│  ├─ architecture
+│  └─ faits
+│     ├─ fait
+│     └─ fait
+├─ visite
+│  ├─ etapes
+│  │  ├─ etape
+│  │  │  ├─ titre
+│  │  │  ├─ texte
+│  │  │  └─ duree
+│  │  └─ etape
+│  │     ├─ titre
+│  │     ├─ texte
+│  │     └─ duree
+│  └─ galerie
+│     ├─ image
+│     │  ├─ fichier
+│     │  └─ legende
+│     └─ image
+│        ├─ fichier
+│        └─ legende
+└─ liens
+   └─ lien
