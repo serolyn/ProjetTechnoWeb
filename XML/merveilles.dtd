@@ -1,14 +1,12 @@
-<!-- Racine = une fiche de collection : une merveille -->
 <!ELEMENT merveille (identite, description, visite, liens?)>
 
-<!-- Attributs de la merveille -->
+
 <!ATTLIST merveille
   id ID #REQUIRED
   type (monument|cite|site|statue) #REQUIRED
   periode (antique|medieval|moderne|mixte) "mixte"
 >
 
-<!-- ordre obligatoire -->
 <!ELEMENT identite (nom, pays, lieu, coordonnees?)>
 
 <!ELEMENT nom (#PCDATA)>
@@ -18,14 +16,12 @@
 
 <!ELEMENT lieu (#PCDATA)>
 
-<!-- Optional : coordonnées -->
 <!ELEMENT coordonnees (latitude, longitude)>
 <!ELEMENT latitude (#PCDATA)>
 <!ELEMENT longitude (#PCDATA)>
 
-<!-- 2) Description : ordre obligatoire + optionnels + liste -->
-<!ELEMENT description (resume, histoire, architecture?, faits?)>
 
+<!ELEMENT description (resume, histoire, architecture?, faits?)>
 <!ELEMENT resume (#PCDATA)>
 <!ELEMENT histoire (#PCDATA)>
 <!ELEMENT architecture (#PCDATA)>
@@ -34,12 +30,10 @@
 <!ELEMENT fait (#PCDATA)>
 <!ATTLIST fait type (date|dimension|materiau|usage|autre) "autre">
 
-<!-- 3) Visite : contient une liste + une galerie optionnelle -->
 <!ELEMENT visite (etapes, galerie?)>
 
 <!ELEMENT etapes (etape+)>
 
-<!-- etape : contient d'autres éléments, et a des attributs -->
 <!ELEMENT etape (titre, texte, duree?)>
 <!ATTLIST etape
   ordre CDATA #REQUIRED
@@ -52,7 +46,7 @@
 <!ELEMENT texte (#PCDATA)>
 <!ELEMENT duree (#PCDATA)>
 
-<!-- galerie : images identifiées (ID) -->
+
 <!ELEMENT galerie (image+)>
 
 <!ELEMENT image (fichier, legende?)>
@@ -62,8 +56,7 @@
 >
 <!ELEMENT fichier (#PCDATA)>
 <!ELEMENT legende (#PCDATA)>
-
-<!-- liens optionnels -->
 <!ELEMENT liens (lien+)>
 <!ELEMENT lien (#PCDATA)>
+
 <!ATTLIST lien type (wiki|unesco|autre) "autre">
