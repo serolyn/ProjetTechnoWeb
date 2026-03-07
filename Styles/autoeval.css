@@ -1,3 +1,6 @@
+/* Feuille de style dédiée à la grille d'autoévaluation */
+
+/* Mise en forme de base du tableau */
 table,tr,td,th{
     border-collapse: collapse;
     border : solid 1px black;
@@ -11,9 +14,11 @@ table {
 thead th{
     background-color:  white;
 }
+/* Alignement de la dernière colonne */
 tbody td:last-child{
     width : 30%
 }
+/* Cellules fusionnées centrées */
 tbody td[rowspan]{
     text-align: center;
 }
@@ -22,10 +27,12 @@ tbody td:nth-last-child(2) {
     text-align: center;
 }
 
+/* Largeur des champs range */
 tbody td:nth-last-child(2) input{
     width : 80% ;
 }
 
+/* Informations de barème */
 .baremep{
     font-style: italic;
     font-size : 0.65em;
@@ -35,6 +42,7 @@ tbody td:nth-last-child(2) input{
     font-weight: bold;
 }
 
+/* Pseudo-éléments pour étiquettes de contexte */
 .nsi::before{
     content: "[Pour les étudiants des gps 4 et 5]";
     font-weight: bold;

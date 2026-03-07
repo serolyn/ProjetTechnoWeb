@@ -1,0 +1,99 @@
+/* =========================================================
+   main.css
+   Style principal : sombre, minimaliste, moderne
+   ========================================================= */
+
+/* Fond général noir et texte clair */
+body {
+    background-color: #050505;
+    color: #f2f2f2;
+}
+
+/* En-tête sombre avec légère séparation */
+header {
+    background-color: #0b0b0b;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+/* Grand titre principal */
+#site-title {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* Titres secondaires */
+h2 {
+    color: #ffffff;
+}
+
+/* Liens sobres avec léger contraste */
+a {
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+/* Pseudo-classe hover déjà présente dans common.css,
+   ici on change en plus la couleur au survol */
+a:hover {
+    color: #ffffff;
+}
+
+/* Cartes : fond légèrement plus clair que le fond général */
+.card {
+    background-color: #101010;
+    border: 1px solid #222222;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+/* Images mieux intégrées au style sombre */
+img {
+    border: 1px solid #202020;
+}
+
+/* Tableaux */
+th,
+td {
+    border-color: #2b2b2b;
+}
+
+th {
+    background-color: #141414;
+}
+
+/* Première lettre de l’introduction légèrement mise en avant */
+.intro::first-letter {
+    color: #ffffff;
+}
+
+/* Lien retour plus visible */
+.back-link {
+    padding: 8px 12px;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    background-color: #111111;
+}
+
+/* Cartes des merveilles sur la page d'accueil */
+.wonder-item a {
+    background-color: #0d0d0d;
+    border: 1px solid #232323;
+    border-radius: 14px;
+    padding: 14px;
+}
+
+.wonder-item a:hover {
+    background-color: #151515;
+    border-color: #3a3a3a;
+}
+
+.wonder-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.wonder-item span {
+    color: #f2f2f2;
+}

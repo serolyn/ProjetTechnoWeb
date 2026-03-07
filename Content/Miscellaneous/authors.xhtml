@@ -1,10 +1,116 @@
 <!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
   <head>
-    <meta charset="utf-8"/>
-    <title> Titre de la page (a changer) </title> 
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <title>Auteurs du site</title>
+    <link rel="stylesheet" type="text/css" href="../../Styles/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../Styles/main.css" title="main" />
+    <link rel="alternate stylesheet" type="text/css" href="../../Styles/alternate.css" title="alternate" />
   </head>
-  <body>
 
+  <body>
+    <header>
+      <h1 id="site-title">Les auteurs du site</h1>
+      <nav>
+        <ul>
+          <li><a href="../../index.xhtml">Accueil</a></li>
+          <li><a href="authors.xhtml">Auteurs</a></li>
+          <li><a href="sources.xhtml">Sources</a></li>
+          <li><a href="../../Styles/styles.xhtml">Styles</a></li>
+          <li><a href="autoeval.xhtml">Autoévaluation</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Portrait chinois</h2>
+        <p class="intro">
+          Cette page présente les auteurs du site sous la forme d’un portrait chinois,
+          avec une colonne par auteur et plusieurs éléments imposés par le sujet.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Tableau des auteurs</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Si j’étais...</th>
+              <th>Marwa</th>
+              <th>Walid</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Un mot</th>
+              <td><span>lucidité</span></td>
+              <td><span>curiosité</span></td>
+            </tr>
+
+            <tr>
+              <th>Un avatar</th>
+              <td>
+                <img
+                  src="../../Images/avatar_walid.svg"
+                  alt="Avatar de Walid"
+                  title="URL_SOURCE_AVATAR_WALID_A_COMPLETER"
+                />
+              </td>
+              <td>
+                <img
+                  src="../../Images/avatar_marwa.svg"
+                  alt="Avatar de Marwa"
+                  title="URL_SOURCE_AVATAR_MARWA_A_COMPLETER"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <th>Un lieu géographique</th>
+              <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="220" height="140" viewBox="0 0 220 140">
+                  <rect x="0" y="0" width="220" height="140" fill="#111111" />
+                  <path d="M20 95 C45 70, 70 80, 100 60 C130 40, 155 50, 200 25" fill="none" stroke="#888888" stroke-width="3" />
+                  <circle cx="110" cy="62" r="6" fill="#ffffff" />
+                  <text x="120" y="66" font-size="14" fill="#ffffff">Poitiers</text>
+                </svg>
+              </td>
+              <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="220" height="140" viewBox="0 0 220 140">
+                  <rect x="0" y="0" width="220" height="140" fill="#111111" />
+                  <path d="M30 100 C55 82, 80 88, 110 70 C145 48, 170 42, 195 32" fill="none" stroke="#888888" stroke-width="3" />
+                  <circle cx="145" cy="48" r="6" fill="#ffffff" />
+                  <text x="154" y="52" font-size="14" fill="#ffffff">Paris</text>
+                </svg>
+              </td>
+            </tr>
+
+            <tr>
+              <th>Une devise</th>
+              <td><q>Comprendre avant de décorer.</q></td>
+              <td><q>Créer, puis affiner.</q></td>
+            </tr>
+
+            <tr>
+              <th>Un objet inutile</th>
+              <td><span>un parapluie pour poissons</span></td>
+              <td><span>une boussole pour labyrinthe carré</span></td>
+            </tr>
+
+            <tr>
+              <th>Un emoji</th>
+              <td>&#x1F30C;</td>
+              <td>&#x1F31F;</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <p>
+        <a class="back-link" href="../../index.xhtml">Retour à l’accueil</a>
+      </p>
+    </main>
   </body>
 </html>

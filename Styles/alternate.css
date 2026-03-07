@@ -1,0 +1,94 @@
+/* =========================================================
+   alternate.css
+   Style alternatif pour une meilleure lisibilité
+   Contraste fort, éléments très visibles
+   ========================================================= */
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.15em;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #000000;
+    border-bottom: 2px solid #ffffff;
+}
+
+#site-title {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+/* Liens très visibles, couleur classique d’accessibilité */
+a {
+    color: #ffff00;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Au survol, inversion simple et très visible */
+a:hover {
+    color: #000000;
+    background-color: #ffff00;
+    text-decoration: none;
+}
+
+/* Cartes avec bordure épaisse pour bien délimiter les zones */
+.card {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+}
+
+/* Images avec contour visible */
+img {
+    border: 2px solid #ffffff;
+}
+
+/* Tableaux plus lisibles */
+th,
+td {
+    border-color: #ffffff;
+}
+
+th {
+    background-color: #111111;
+}
+
+/* Lien retour encore plus visible */
+.back-link {
+    padding: 10px 14px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background-color: #000000;
+}
+/* Cartes des merveilles dans le style alternatif */
+.wonder-item a {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.wonder-item a:hover {
+    background-color: #ffff00;
+    border-color: #ffff00;
+}
+
+.wonder-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin: 0;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+.wonder-item span {
+    color: #ffffff;
+}

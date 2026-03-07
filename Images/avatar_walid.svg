@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Avatar Walid placeholder">
+  <rect width="256" height="256" fill="#1f2937"/>
+  <circle cx="128" cy="96" r="44" fill="#e5e7eb"/>
+  <rect x="54" y="154" width="148" height="68" rx="34" fill="#d1d5db"/>
+  <text x="128" y="242" text-anchor="middle" font-size="14" fill="#f9fafb">Avatar Walid (placeholder)</text>
+</svg>

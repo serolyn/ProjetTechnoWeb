@@ -1,39 +1,141 @@
 <!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
   <head>
-    <meta charset="utf-8"/>
-    <title>Les 7 Nouvelles Merveilles du Monde</title> 
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <title>Les 7 nouvelles merveilles du monde</title>
+    <link rel="stylesheet" type="text/css" href="Styles/common.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/main.css" title="main" />
+    <link rel="alternate stylesheet" type="text/css" href="Styles/alternate.css" title="alternate" />
   </head>
+
   <body>
-    <h1> Les 7 Nouvelles Merveilles du Monde </h1>
-   <h2>Présentation</h2>
-    <p>
-      Les 7 nouvelles merveilles du monde ont été désignées en 2007 à la suite d’un vote international.
-      Elles représentent des monuments exceptionnels construits par différentes civilisations
-      à travers l’histoire.
-    </p>
+    <header>
+      <h1 id="site-title">Les 7 nouvelles merveilles du monde</h1>
 
-    <p>
-      <img src="Images/ImageTajMahal.jpg" alt="Le Taj Mahal" width="320" />
-      <img src="Images/ImageMachuPicchu.jpg" alt="Le Machu Picchu" width="320" />
-    </p>
+      <nav>
+        <ul>
+          <li><a href="index.xhtml">Accueil</a></li>
+          <li><a href="Content/Miscellaneous/authors.xhtml">Auteurs</a></li>
+          <li><a href="Content/Miscellaneous/sources.xhtml">Sources</a></li>
+          <li><a href="Styles/styles.xhtml">Styles</a></li>
+          <li><a href="Content/Miscellaneous/autoeval.xhtml">Autoévaluation</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h2>Liste des merveilles</h2>
+    <main>
+      <section class="card">
+        <h2>Présentation</h2>
 
-    <ul>
-      <li><a href="LeChristRédempteur.xhtml">Le Christ Rédempteur (Brésil)</a></li>
-      <li><a href="LeMachuPicchuAuPérou.xhtml">Machu Picchu (Pérou)</a></li>
-      <li><a href="ChichénItzáAuMexique.xhtml">Chichén Itzá (Mexique)</a></li>
-      <li><a href="LeColiséeDeRome.xhtml">Le Colisée (Italie)</a></li>
-      <li><a href="LeTajMahal.xhtml">Le Taj Mahal (Inde)</a></li>
-      <li><a href="LaGrandeMurailleDeChine.xhtml">La Grande Muraille de Chine</a></li>
-      <li><a href="PétraEnJordanie.xhtml">Pétra (Jordanie)</a></li>
-    </ul>
+        <p class="intro">
+          Les 7 nouvelles merveilles du monde ont été désignées en 2007 à la suite
+          d’un vote international. Elles représentent des monuments exceptionnels,
+          construits par différentes civilisations et devenus aujourd’hui des
+          symboles majeurs du patrimoine mondial.
+        </p>
 
-    <p>
-      <a href="mailto:contact@example.com">Contacter les auteurs</a>
-    </p>
-    
+        <p>
+          Ce site propose une découverte visuelle de chacune de ces merveilles.
+          Cliquez sur l’image de votre choix pour accéder à sa fiche détaillée.
+        </p>
+      </section>
 
+      <section class="card">
+        <h2>Choisir une merveille</h2>
+
+        <ul class="wonder-menu">
+          <li class="wonder-item">
+            <a href="Content/Collection/la_grande_muraille_de_chine.xhtml">
+              <img
+                src="Images/image_muraille.jpg"
+                alt="La Grande Muraille de Chine"
+                title="URL_SOURCE_IMAGE_MURAILLE_A_COMPLETER"
+              />
+              <span>La Grande Muraille de Chine</span>
+            </a>
+          </li>
+
+          <li class="wonder-item">
+            <a href="Content/Collection/petra_en_jordanie.xhtml">
+              <img
+                src="Images/image_petra.jpg"
+                alt="Pétra en Jordanie"
+                title="URL_SOURCE_IMAGE_PETRA_A_COMPLETER"
+              />
+              <span>Pétra</span>
+            </a>
+          </li>
+
+          <li class="wonder-item">
+            <a href="Content/Collection/le_colisee_de_rome.xhtml">
+              <img
+                src="Images/image_colisee.jpg"
+                alt="Le Colisée de Rome"
+                title="URL_SOURCE_IMAGE_COLISEE_A_COMPLETER"
+              />
+              <span>Le Colisée de Rome</span>
+            </a>
+          </li>
+
+          <li class="wonder-item">
+            <a href="Content/Collection/chichen_itza_au_mexique.xhtml">
+              <img
+                src="Images/image_chichenitza.jpg"
+                alt="Chichen Itza au Mexique"
+                title="URL_SOURCE_IMAGE_CHICHEN_ITZA_A_COMPLETER"
+              />
+              <span>Chichen Itza</span>
+            </a>
+          </li>
+
+          <li class="wonder-item">
+            <a href="Content/Collection/le_machu_picchu_au_perou.xhtml">
+              <img
+                src="Images/image_machu_picchu.jpg"
+                alt="Le Machu Picchu au Pérou"
+                title="URL_SOURCE_IMAGE_MACHU_PICCHU_A_COMPLETER"
+              />
+              <span>Le Machu Picchu</span>
+            </a>
+          </li>
+
+          <li class="wonder-item">
+            <a href="Content/Collection/le_christ_redempteur.xhtml">
+              <img
+                src="Images/image_christ.jpg"
+                alt="Le Christ Rédempteur"
+                title="URL_SOURCE_IMAGE_CHRIST_A_COMPLETER"
+              />
+              <span>Le Christ Rédempteur</span>
+            </a>
+          </li>
+
+          <li class="wonder-item">
+            <a href="Content/Collection/le_taj_mahal.xhtml">
+              <img
+                src="Images/image_taj_mahal.jpg"
+                alt="Le Taj Mahal"
+                title="URL_SOURCE_IMAGE_TAJ_MAHAL_A_COMPLETER"
+              />
+              <span>Le Taj Mahal</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Explorer le site</h2>
+        <ul>
+          <li><a href="Content/Miscellaneous/authors.xhtml">Découvrir les auteurs</a></li>
+          <li><a href="Content/Miscellaneous/sources.xhtml">Consulter les sources</a></li>
+          <li><a href="Styles/styles.xhtml">Voir la conformité des styles CSS</a></li>
+          <li><a href="Content/Miscellaneous/autoeval.xhtml">Lire l’autoévaluation</a></li>
+        </ul>
+      </section>
+
+      <p>
+        <a class="back-link" href="mailto:EMAIL_AUTEURS_A_COMPLETER">Contacter les auteurs</a>
+      </p>
+    </main>
   </body>
 </html>

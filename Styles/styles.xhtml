@@ -5,6 +5,7 @@
   <title>
     Vérification des contraintes de style
   </title>
+
   <link rel="stylesheet" type="text/css" title="style" media="screen"
         href="styleconformance.css"/>
 </head>
@@ -21,34 +22,36 @@
   </thead>
   <tbody>
   <tr>
-    <td> sélecteurs d'éléments</td> <td> </td> <td> </td> <td> </td>
+    <td> sélecteurs d'éléments</td> <td> common.css </td> <td> 8, 25, 33, 45, 64, 85, 104, 125, 130 </td> <td> body, main, header, h2, nav ul, a, img, ul, table </td>
   </tr>
   <tr>
-    <td> sélecteurs via id et class </td> <td> </td> <td> </td> <td> </td>
+    <td> sélecteurs via id et class </td> <td> common.css </td> <td> 39, 91, 98, 178, 187 </td> <td> #site-title, .card, .back-link, .wonder-menu, .wonder-item </td>
   </tr>
   <tr>
-    <td> sélecteurs d'enfants </td> <td> </td> <td> </td> <td> </td>
+    <td> sélecteurs d'enfants </td> <td> common.css </td> <td> 72 </td> <td> nav &gt; ul </td>
   </tr>
   <tr>
-    <td> sélecteurs de descendants </td> <td> </td> <td> </td> <td> </td>
+    <td> sélecteurs de descendants </td> <td> common.css </td> <td> 53 </td> <td> article p </td>
   </tr>
   <tr>
-    <td> sélecteurs d'éléments adjacents </td> <td> </td> <td> </td> <td> </td>
+    <td> sélecteurs d'éléments adjacents </td> <td> common.css </td> <td> 59 </td> <td> h2 + p </td>
   </tr>
   <tr>
-    <td> sélecteurs via des pseudo-classes </td> <td> </td> <td> </td> <td>
+    <td> sélecteurs via des pseudo-classes </td> <td> common.css </td> <td> 154 </td> <td>
+    a:hover
   </td>
   </tr>
   <tr>
-    <td>  sélecteurs via des pseudo-éléments </td> <td> </td> <td> </td> <td>
+    <td>  sélecteurs via des pseudo-éléments </td> <td> common.css </td> <td> 147 </td> <td>
+    .intro::first-letter
   </td>
   </tr>
   <tr>
-    <td> sélecteurs via des attributs autres qu'id et class </td> <td> </td>
-    <td> </td> <td> </td>
+    <td> sélecteurs via des attributs autres qu'id et class </td> <td> common.css </td>
+    <td> 114 </td> <td> img[title] </td>
   </tr>
   <tr>
-    <td> Combinaison de sélecteurs </td> <td> </td> <td> </td> <td> </td>
+    <td> Combinaison de sélecteurs </td> <td> common.css </td> <td> 120 </td> <td> .card img[title] </td>
   </tr>
   <!--
   <tr>
@@ -56,5 +59,7 @@
   </tr>-->
   </tbody>
 </table>
+
+<p><a href="../index.xhtml">Retour à l'accueil</a></p>
 </body>
 </html>

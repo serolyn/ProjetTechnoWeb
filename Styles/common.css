@@ -1,0 +1,202 @@
+/* =========================================================
+   common.css
+   Règles communes aux deux styles :
+   structure, disposition, navigation, blocs, images, tableaux
+   ========================================================= */
+
+/* Sélecteur d'élément : base générale */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Blocs principaux du document */
+header,
+nav,
+main,
+footer,
+section,
+article {
+    display: block;
+}
+
+/* Zone centrale du site */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px 0 40px 0;
+}
+
+/* En-tête principal */
+header {
+    padding: 28px 20px 20px 20px;
+    text-align: center;
+}
+
+/* Sélecteur via id : grand titre du site */
+#site-title {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+/* Titres de section */
+h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.4em;
+}
+
+/* Sélecteur de descendants :
+   cible les paragraphes à l'intérieur d'un article */
+article p {
+    margin-bottom: 14px;
+}
+
+/* Sélecteur d'éléments adjacents :
+   cible le premier paragraphe placé juste après un h2 */
+h2 + p {
+    margin-top: 6px;
+}
+
+/* Navigation principale */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 18px 0 0 0;
+}
+
+/* Sélecteur d'enfants :
+   ne cible que le ul directement contenu dans nav */
+nav > ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Élément de navigation */
+nav li {
+    display: inline-block;
+}
+
+/* Liens du site */
+a {
+    transition: 0.2s;
+}
+
+/* Sélecteur via class :
+   utilisé pour les blocs principaux du site */
+.card {
+    padding: 22px;
+    margin: 22px 0;
+    border-radius: 14px;
+}
+
+/* Classe pour le lien retour */
+.back-link {
+    display: inline-block;
+    margin-top: 18px;
+}
+
+/* Images du site */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 18px auto;
+    border-radius: 10px;
+}
+
+/* Sélecteur d’attribut :
+   cible les images qui possèdent un attribut title */
+img[title] {
+    cursor: help;
+}
+
+/* Combinaison de sélecteurs :
+   cible les images avec title qui se trouvent dans une carte */
+.card img[title] {
+    outline: none;
+}
+
+/* Style des listes */
+ul {
+    padding-left: 22px;
+}
+
+/* Tableaux, utile pour authors.xhtml */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* Pseudo-élément :
+   met en valeur la première lettre de l’introduction */
+.intro::first-letter {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/* Pseudo-classe :
+   effet visuel au survol des liens */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mise en page plus lisible sur petits écrans */
+@media (max-width: 700px) {
+    #site-title {
+        font-size: 1.8em;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    nav > ul {
+        gap: 8px;
+    }
+}
+
+/* Menu visuel des merveilles sur la page d'accueil */
+.wonder-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.wonder-item {
+    margin: 0;
+    padding: 0;
+}
+
+.wonder-item a {
+    display: block;
+    text-decoration: none;
+}
+
+.wonder-item span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
